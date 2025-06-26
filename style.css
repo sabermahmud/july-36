@@ -1,3 +1,26 @@
-*{
-  font-family: "Noto Sans", sans-serif;
+
+.navbar{
+  margin: 0px;
+  padding: 15px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.navTitle{
+  font-family:"Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.navBtn{
+  padding: 5px 20px;
+  color: #006A50;
+  font-family:"Fira Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #006A50;
+  border-radius: 5px;
+}
+
+
