@@ -1,5 +1,6 @@
 body{  
   padding: 15px 80px;
+  background-color: #F1F1F3;
 }
 
 .navbar{
@@ -14,7 +15,7 @@ body{
   font-size: 32px;
 }
 
-.navBtn{
+.navBtn,{
   padding: 5px 20px;
   color: #006A50;
   font-family:"Fira Sans", sans-serif;
@@ -55,7 +56,7 @@ body{
   font-weight: 700;
 }
 
-.bannerDetails button{
+.bannerDetails button,  .newsCartBtn{
   padding: 10px 20px;
   color: #ffffff;
   background-color: #006A50;
@@ -71,23 +72,23 @@ body{
 
 /* vision of future */
 
-.first-articles-title{
+.first-articles-title, .newsArticlesTitle {
   font-family:"Fira Sans", sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
 
-.first-articles-details{
+.first-articles-details, .newsArticlesDetails, .newsCart p{
   font-family:"Fira Sans", sans-serif;
   color: #0e0e0e95;
 }
 
 .first-articles-carts-group{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
   padding: 5px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .first-articles-carts{
@@ -136,6 +137,38 @@ body{
   font-weight: 600;
 }
 
+.newsCart{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+  padding: 35px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.newsCartImage{
+  width: 400px;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+
+.newsCartData{
+  width: 100%
+}
 
 
+.newsCartTitle {
+  font-family:"Fira Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
 
+
+.newDateTime{
+  display: flex;
+}
+
+.newDateTime p{
+  margin-right: 15px;
+}
