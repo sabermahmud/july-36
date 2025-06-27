@@ -15,7 +15,7 @@ body{
   font-size: 32px;
 }
 
-.navBtn,{
+.navBtn{
   padding: 5px 20px;
   color: #006A50;
   font-family:"Fira Sans", sans-serif;
@@ -56,7 +56,7 @@ body{
   font-weight: 700;
 }
 
-.bannerDetails button,  .newsCartBtn{
+.bannerDetails button,  .newsCartBtn, .donateBtn{
   padding: 10px 20px;
   color: #ffffff;
   background-color: #006A50;
@@ -72,13 +72,13 @@ body{
 
 /* vision of future */
 
-.first-articles-title, .newsArticlesTitle {
+.first-articles-title, .newsArticlesTitle, .donateTitle, footer h2 {
   font-family:"Fira Sans", sans-serif;
   font-size: 40px;
   font-weight: 700;
 }
 
-.first-articles-details, .newsArticlesDetails, .newsCart p{
+.first-articles-details, .newsArticlesDetails, .newsCart p, .donateProposal{
   font-family:"Fira Sans", sans-serif;
   color: #0e0e0e95;
 }
@@ -171,4 +171,50 @@ body{
 
 .newDateTime p{
   margin-right: 15px;
+}
+
+
+.donatePart{
+  text-align: center;
+  margin: 16px auto;
+  padding: auto 40px;
+}
+
+.donateAmountBtnGroup{
+  margin: 8px auto;
+  max-width: 100%;
+}
+
+.donateAmountBtn{
+  margin: 12px;
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-size:25px;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+#activeBtn{
+  background-color: #C6E4D6;
+}
+
+#otherAmountInput{
+  width: 40%;
+  text-align: center;
+  margin: 15px 35px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 18px;
+}
+
+footer{
+  margin: 16px auto;
+  padding: 40px;
+  text-align: center;
+  background-color: #C6E4D6;
+}
+
+footer img{
+  margin-right: 40px;
 }
