@@ -24,6 +24,7 @@ body{
   border-radius: 5px;
 }
 
+/* banner section */
 
 .banner{
   display: flex;
@@ -48,7 +49,6 @@ body{
 
 
 .bannerSlog{
-  width: 600px;
   font-family:"Fira Sans", sans-serif;
   text-align: left;
   font-size: 56px;
@@ -68,5 +68,74 @@ body{
 .bannerImage{
   width: 100%;
 }
+
+/* vision of future */
+
+.first-articles-title{
+  font-family:"Fira Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.first-articles-details{
+  font-family:"Fira Sans", sans-serif;
+  color: #0e0e0e95;
+}
+
+.first-articles-carts-group{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+}
+
+.first-articles-carts{
+ width: 100%;
+ padding: 32px;
+ margin: 5px 10px;
+ border-radius: 10px;
+}
+
+#firstCart{
+  background-color: #548ff5ac;
+}
+
+#firstCart button{
+  color: #eff2f8;
+  background-color: #5490F5;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+#secondCart{
+  background-color: #C6E4D6;
+}
+
+#secondCart button{
+  color: #eff2f8;
+  background-color: #2dd55c;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+#thurdCart{
+  background-color: #F7EBCF;
+}
+
+#thurdCart button{
+  color: #eff2f8;
+  background-color: #ebc64d;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
+
 
 
